@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dirdh's resume</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        /* styles.css */
+
+        /* Overall styling */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .resume {
+            max-width: 794px; /* A4 size - 1 inch margin on each side */
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header section */
+        .header {
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Section titles */
+        .section-title {
+            font-size: 24px;
+            color: #333;
+            margin-top: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        /* Subsection titles */
+        .subsection-title {
+            font-size: 20px;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        /* Subsection content */
+        .subsection-content {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        /* Skills list */
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills-list li {
+            margin-bottom: 5px;
+        }
+
+        /* Work experience */
+        .responsibilities-list {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+
+        /* Certifications list */
+        .certifications-list {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
+    <base target="_blank">
+</head>
+<body>
+    <article class="resume-wrapper text-center position-relative">
+        <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+            <header class="resume-header pt-4 pt-md-0">
+                <div class="media flex-column flex-md-row">
+                    <a href="https://imgbb.com/"><img src="profilepic.jpg" alt="image" border="0" width="220" height="220"></a>
+                    <img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile-picture.jpg" alt="">
+                    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+                        <div class="primary-info">
+                            <h1 class="name mt-0 mb-1 text-white text-uppercase">Dirdh Vataliya</h1>
+                            <div class="title mb-3">Software Developer</div>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-envelope-square fa-lg mr-2"></i>dirdhvataliya2003@gmail</li>
+                                <li><i class="fas fa-phone-square fa-lg mr-2"></i>+91 9265193870</li>
+                            </ul>
+                        </div>
+                        <div class="secondary-info ml-md-auto mt-2">
+                            <ul class="resume-social list-unstyled">
+                                <li class="mb-3"><a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
+                                <li class="mb-3"><a href="#"><i class="fab fa-github-alt fa-lg"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="resume-body p-5">
+                <section class="resume-section summary-section mb-5">
+                    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
+                    <div class="resume-section-content">
+                        <p class="mb-0">Experienced software developer with expertise in multiple programming languages and frameworks. Skilled in full-stack web development and passionate about creating user-friendly and visually appealing applications. Strong problem-solving abilities and a collaborative team player.</p>
+                    </div>
+                </section>
+                <section class="resume-section experience-section mb-5">
+                    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
+                    <div class="resume-section-content">
+                        <div class="resume-timeline position-relative">
+                            <article class="resume-timeline-item position-relative pb-5">
+                                <div class="resume-timeline-item-header mb-2">
+                                    <div class="d-flex flex-column flex-md-row">
+                                        <h3 class="resume-position-title font-weight-bold mb-1">Senior Software Developer</h3>
+                                        <div class="resume-company-name ml-auto">XYZ Inc.</div>
+                                    </div>
+                                    <div class="resume-position-time">2018 - Present</div>
+                                </div>
+                                <div class="resume-timeline-item-desc">
+                                    <p>Lead the development team in designing and implementing a scalable web application for client management. Collaborated with cross-functional teams to gather requirements and translate them into technical specifications. Developed efficient and reusable code using Python and Django framework.</p>
+                                    <ul class="responsibilities-list">
+                                        <li>Managed a team of 5 developers and conducted regular code reviews.</li>
+                                        <li>Integrated third-party APIs for payment processing and data synchronization.</li>
+                                        <li>Optimized application performance and improved loading time by implementing caching mechanisms.</li>
+                                    </ul>
+                                </div>
+                            </article>
+                            <article class="resume-timeline-item position-relative pb-5">
+                                <div class="resume-timeline-item-header mb-2">
+                                    <div class="d-flex flex-column flex-md-row">
+                                        <h3 class="resume-position-title font-weight-bold mb-1">Software Developer</h3>
+                                        <div class="resume-company-name ml-auto">ABC Corp.</div>
+                                    </div>
+                                    <div class="resume-position-time">2015 - 2018</div>
+                                </div>
+                                <div class="resume-timeline-item-desc">
+                                    <p>Developed and maintained web applications using HTML, CSS, JavaScript, and PHP. Collaborated with UI/UX designers to create user-friendly interfaces. Implemented responsive designs to ensure compatibility across various devices.</p>
+                                    <ul class="responsibilities-list">
+                                        <li>Collaborated with backend developers to integrate frontend with server-side logic.</li>
+                                        <li>Created and maintained database schemas using MySQL.</li>
+                                        <li>Performed code refactoring and optimization to improve application performance.</li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <section class="resume-section skills-section mb-5">
+                    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills</h2>
+                    <div class="resume-section-content">
+                        <div class="resume-skill-item">
+                            <ul class="skills-list">
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>HTML/CSS</li>
+                                <li>MySQL</li>
+                                <li>Git</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="resume-section certifications-section mb-5">
+                    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Certifications</h2>
+                    <div class="resume-section-content">
+                        <ul class="certifications-list">
+                            <li>C Language</li>
+                            <li>DJango workshop</li>
+                            <li>hsc</li>
+                            <li>ssc</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="resume-footer p-4">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="resume-lang">
+                            <h5 class="text-uppercase font-weight-bold mb-3">Languages</h5>
+                            <ul class="list-unstyled">
+                                <li>English - Basic</li>
+                                <li>gujarati - Fluent</li>
+                                <li>hindi - intermidiate</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- <div class="resume-download">
+                            <a href="#" class="btn btn-primary btn-lg" target="_blank">Download CV</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</body>
+</html>
+
+css file
+/* styles.css */
+
+/* Overall styling */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resume {
+    max-width: 794px; /* A4 size - 1 inch margin on each side */
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header section */
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .contact {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Section titles */
+  .section-title {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  /* Subsection titles */
+  .subsection-title {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Subsection content */
+  .subsection-content {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Skills list */
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 5px;
+  }
+  
+  /* Work experience */
+  .responsibilities-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 5px 0;
+  }
+  
+  /* Certifications list */
+  .certifications-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 5px 0;
+  }
+  
